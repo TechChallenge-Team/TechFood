@@ -1,0 +1,40 @@
+.root {
+  height: 100vh;
+}
+
+.nav {
+  padding: var(--space-3);
+}
+
+.nav .logo {
+  padding: var(--space-5);
+  cursor: pointer;
+}
+
+.header {
+  margin-bottom: var(--space-5);
+  padding-right: var(--space-5);
+}
+
+.header-controls svg {
+  height: 20px;
+  width: 20px;
+}
+
+.main {
+  height: 100%;
+  overflow: auto;
+  padding: var(--space-6) 0 0 var(--space-5);
+  background-color: var(--gray-a3);
+}
+
+.content {
+  overflow: auto;
+  padding: var(--space-1) var(--space-5) var(--space-5) 0;
+  flex: 1;
+}
+
+.languageSwitch {
+  width: 20px;
+  height: 15px;
+}
